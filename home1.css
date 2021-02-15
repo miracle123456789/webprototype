@@ -1,0 +1,99 @@
+body {
+   margin:0;
+   padding: 0;
+   font-family: sans-serif; 
+   width:100%;
+   height: 100%;
+}
+
+.section-top{
+    width:100%;
+    height : 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url(Air.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slide 10s infinite;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+}
+.content h1{
+    color: white;
+    font-size: 60px;
+    letter-spacing: 16px;
+}
+
+.content a{
+    background:#0984e3;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    font-size:18px;
+    border-radius: 20px;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url(lastlast.png);
+    
+    }
+    33%{
+        background-image: url(lastlast2.png);
+    
+    }
+    67%{
+        background-image: url(lastlast3.png);
+    
+    }
+
+}
+
+
+
+ .social-media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+    display: flex;
+}
+
+ .social-media a {
+    display: block;
+    width: 40px;
+    background:  #063146;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px 5px;
+    color : cyan;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; 
+
+}
+
+footer{
+    height: 20vr;
+    background: royalblue;
+    opacity: 0.8s;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+address{
+    color:black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
