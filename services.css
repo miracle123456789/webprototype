@@ -1,0 +1,38 @@
+body{
+    margin : 0px;
+    padding : 0px;
+}
+h1 {
+    text-align: center;
+}
+section {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.services{
+    height :100%;
+    width : 100%;
+    background: url("Shoebox7.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    
+}
+.image{
+    margin: 20px  90px;
+}
+.name1{
+    position: absolute;
+    bottom: 20px;
+    left :258px;
+}
+
+
+.name2{
+    position: absolute;
+    bottom: 20px;
+    right :258px;
+}
