@@ -1,79 +1,106 @@
-body {
+body{
     padding: 0px;
     margin: 0px;
+    
 }
-
-
-section {
-    background: url("shoebox.jpg");
-    background-size: cover;
-    background-position: center;
+section{
+    background: rgb(209, 209, 209);
     padding: 0px;
     margin: 0px;
     height: 100vh;
-    opacity: 3;
-    animation: slide 13s infinite;
+    width: 100%;
+}
+.curves {
+    position: absolute;
+    top: 20%;
+    left : 44%
+    
 
 }
-section .topnav ul {
-    list-style: none;
-    text-align: right;
-    padding: 10px 0px;
-    margin: 0px;
-    font-family: sans-serif;
-    overflow: hidden;
-    transition: all .7s ease;
-}
-section .topnav li{
-    display: inline-block;
+.one{
+    width: 70px;
+    height: 55px;
+    background: black;
+    border-radius: 100%;
+    
     
 }
-section .topnav li a{
-    text-decoration: none;
-    color: black;
-    width : 100px;
-    display: block;
-    padding: 20px 13px;
-    font-size: 14px;
-    font-family: sans-serif;
-    text-align: center;
+.block {
+    position: absolute;
+    top: 20%;
+    left : 44%
 }
-section .topnav a:hover{
-    background-color:rgb(41, 39, 39);
-    transition: 0.4s ;
-    opacity:0.8;
-    border-radius: 6px;
-    color: pink;
-}
-
-
-section .topnav ul h1{
-    float: left;
-    padding: 0px 20px;
+.sqa{
+    width: 30px;
+    height: 110px;
+    background: black;
     
 }
+.ul{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+.left{
+    width: 30px;
+    height: 80px;
+    background: black;
+    border-radius: 40px 0% 13% 0%;
+}
+.down{
+    width: 98px;
+    height: 30px;
+    background: black;
+    border-radius: 0% 0% 20% 32%;
+}
+.ur{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+.right{
+    width: 30px;
+    height: 90px;
+    background: black;
+    border-radius: 0px 40px;
+}
 
-@keyframes slide{
-    20%{
-        background-image: url(shoebox2.jpg);
-    
-    }
-    40%{
-        background-image: url(shoebox4.jpg);
-    
-    }
-    60%{
-        background-image: url(Shoebox5.jpg);
-    
-    }
+.inner {
+    position: absolute;
+    top: 23%;
+    left : 45%
+}
 
-    80%{
-        background-image: url(shoebox7.jpg);
+.two{
+    width: 50px;
+    height: 35px;
+    background: white;
+    border-radius: 100%;
     
-    }
+    
+}
 
-    100%{
-        background-image: url(shoebox8.jpg);
+.innerblock {
+    position: absolute;
+    top: 20%;
+    left : 44%
+}
+.squa{
+    width: 30px;
+    height: 110px;
+    background: black;
     
-    }
+}
+
+.long {
+    position: absolute;
+    top: 40%;
+    left : 44%
+}
+.tie{
+    width: 30px;
+    height: 110px;
+    background: black;
+    border-radius: 0px 0px 50% 50%;
+    
 }
