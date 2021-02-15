@@ -1,0 +1,79 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+section {
+    background: url("shoebox.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    opacity: 3;
+    animation: slide 13s infinite;
+
+}
+section .topnav ul {
+    list-style: none;
+    text-align: right;
+    padding: 10px 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    overflow: hidden;
+    transition: all .7s ease;
+}
+section .topnav li{
+    display: inline-block;
+    
+}
+section .topnav li a{
+    text-decoration: none;
+    color: black;
+    width : 100px;
+    display: block;
+    padding: 20px 13px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+}
+section .topnav a:hover{
+    background-color:rgb(41, 39, 39);
+    transition: 0.4s ;
+    opacity:0.8;
+    border-radius: 6px;
+    color: pink;
+}
+
+
+section .topnav ul h1{
+    float: left;
+    padding: 0px 20px;
+    
+}
+
+@keyframes slide{
+    20%{
+        background-image: url(shoebox2.jpg);
+    
+    }
+    40%{
+        background-image: url(shoebox4.jpg);
+    
+    }
+    60%{
+        background-image: url(Shoebox5.jpg);
+    
+    }
+
+    80%{
+        background-image: url(shoebox7.jpg);
+    
+    }
+
+    100%{
+        background-image: url(shoebox8.jpg);
+    
+    }
+}
